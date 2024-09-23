@@ -1,0 +1,4 @@
+Third-Party Library Download Link
+
+TensorRT-8.5.1.7: https://pan.baidu.com/s/1AtneqhqVTVep3QDXVnHH3w, code: ayxu
+opencv-4.8.0: https://pan.baidu.com/s/1BnIwLWR6RqWg3tLw5dd-kQ, code: 6sv5
