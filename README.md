@@ -1,6 +1,6 @@
 
 ### Project Introduction
-Deploy the yolov5x model using TensorRT.
+This project focuses on optimizing the inference performance of the YOLOv5x model using TensorRT.
 
 #### Directory
 - images: Contains test image and model output results.
