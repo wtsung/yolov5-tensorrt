@@ -12,7 +12,7 @@ Deploy the yolov5x model using TensorRT.
 
 ##### Base
 **GPU:** NVIDIA GeForce RTX 4060  \
-**镜像:** nvcr.io/nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04
+**docker:** nvcr.io/nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04
 
 ##### Container Configuration
 ###### Install basic software
