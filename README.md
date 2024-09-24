@@ -3,16 +3,16 @@
 Deploy the yolov5x model using TensorRT.
 
 #### Directory
-- images: Test image and model output result image.
-- models: yolov5x onnx model，tensorRT engine serialization file，Including FP32 precision and INT8 precision.
-- src: Source code.
-- third: tensorRT and opencv.
+- images: Contains test image and model output results.
+- models: Houses the TensorRT engine serialization files with INT8 precision, and scripts for model conversion.
+- src: Contains the source code for implementation.
+- third: Includes TensorRT and OpenCV libraries.
 
 #### Environment
 
 ##### Base
 **GPU:** NVIDIA GeForce RTX 4060  \
-**docker:** nvcr.io/nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04
+**docker:** Use the NVIDIA CUDA container: nvcr.io/nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04
 
 ##### Container Configuration
 ###### Install basic software
@@ -28,13 +28,13 @@ Deploy the yolov5x model using TensorRT.
 
 #### Model
 
-Model yolov5x.onnx obtained through https://github.com/ultralytics/yolov5/blob/master/export.py
+The YOLOv5x ONNX model can be obtained from [Ultralytics YOLOv5 repository](https://github.com/ultralytics/yolov5/blob/master/export.py) using the following command:
 
 >python export.py --weights yolov5x.pt --include onnx --imgsz 640 640
 
 
-Calibration Dataset：http://images.cocodataset.org/zips/val2017.zip
-
+#### Calibration Dataset
+The calibration dataset can be downloaded from: [COCO 2017 Validation Images](http://images.cocodataset.org/zips/val2017.zip).
 
 #### Third Party Library
 
